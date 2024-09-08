@@ -66,7 +66,7 @@
   background-image: url("/images/logo2.png");
   background-position: 50% 50%;
   --radius: 50px;
-  transition-duration: 3s;
+  transition-duration: 1s;
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px);
   margin: 69px auto 0;
 }
@@ -188,11 +188,33 @@
 }
 
 .u-section-1 .u-image-1.u-image-1.u-image-1:hover {
-  box-shadow: 2px 2px 8px 0px rgba(128,128,128,1) !important;
+  border-style: solid !important;
+  border-top-width: 2px !important;
+  border-left-width: 2px !important;
+  border-right-width: 2px !important;
+  border-bottom-width: 2px !important;
+  border-color: #404040 !important;
+}
+
+.u-section-1 .u-image-1 {
+  border-style: solid !important;
+  border-width: 0px !important;
+  border-color: transparent !important;
 }
 
 .u-section-1 .u-image-1.u-image-1.u-image-1.hover {
-  box-shadow: 2px 2px 8px 0px rgba(128,128,128,1) !important;
+  border-style: solid !important;
+  border-top-width: 2px !important;
+  border-left-width: 2px !important;
+  border-right-width: 2px !important;
+  border-bottom-width: 2px !important;
+  border-color: #404040 !important;
+}
+
+.u-section-1 .u-image-1 {
+  border-style: solid !important;
+  border-width: 0px !important;
+  border-color: transparent !important;
 }.u-section-2 .u-sheet-1 {
   min-height: 495px;
 }
@@ -366,8 +388,6 @@
 .u-section-3 .u-icon-1 {
   height: 15px;
   width: 15px;
-  background-image: none;
-  color: rgb(255, 255, 255) !important;
 }
 
 .u-section-3 .u-accordion-pane-1 {
@@ -386,8 +406,6 @@
 .u-section-3 .u-icon-2 {
   height: 15px;
   width: 15px;
-  background-image: none;
-  color: rgb(255, 255, 255) !important;
 }
 
 .u-section-3 .u-accordion-pane-2 {
@@ -406,8 +424,6 @@
 .u-section-3 .u-icon-3 {
   height: 15px;
   width: 15px;
-  background-image: none;
-  color: rgb(255, 255, 255) !important;
 }
 
 .u-section-3 .u-accordion-pane-3 {
@@ -426,8 +442,6 @@
 .u-section-3 .u-icon-4 {
   height: 15px;
   width: 15px;
-  background-image: none;
-  color: rgb(255, 255, 255);
 }
 
 .u-section-3 .u-accordion-pane-4 {
@@ -446,8 +460,6 @@
 .u-section-3 .u-icon-5 {
   height: 15px;
   width: 15px;
-  background-image: none;
-  color: rgb(255, 255, 255);
 }
 
 .u-section-3 .u-accordion-pane-5 {
@@ -466,8 +478,6 @@
 .u-section-3 .u-icon-6 {
   height: 15px;
   width: 15px;
-  background-image: none;
-  color: rgb(255, 255, 255);
 }
 
 .u-section-3 .u-accordion-pane-6 {
@@ -486,8 +496,6 @@
 .u-section-3 .u-icon-7 {
   height: 15px;
   width: 15px;
-  background-image: none;
-  color: rgb(255, 255, 255);
 }
 
 .u-section-3 .u-accordion-pane-7 {
