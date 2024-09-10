@@ -122,7 +122,7 @@
           <div class="input-group-prepend">
             <span class="input-group-text">Email</span>
           </div>
-          <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+          <input type="email" id="email" name="email" class="form-control" placeholder="Enter your Business email" required>
           <div class="input-group-append">
             <button class="btn btn-dark" type="submit">Count me in!</button>
           </div>
@@ -200,6 +200,9 @@
       </div>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+      #email::placeholder {
+    font-size: 15px; /* Adjust the size as needed */
+}
 
 .centered-heading {
   font-family: 'Montserrat', sans-serif;
@@ -208,7 +211,7 @@
 }
 
 .reduced-width-form {
-  max-width: 400px; /* Adjust the width as needed */
+  max-width: 1000px; /* Adjust the width as needed */
   margin: 0 auto; /* Center the form */
 }
 
