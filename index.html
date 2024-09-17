@@ -1,579 +1,331 @@
 <!DOCTYPE html>
-<html style="font-size: 16px;" lang="en"><head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="keywords" content="An army of testers for every tester., ​TestAr​my makes it possible to balance cost speed and quality., Frequently asked questions">
-    <meta name="description" content="Build AI Agents for software testing.">
-    <title>TestArmy</title>
-<!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','G-YS1C1DLJF3');</script>
-    <!-- End Google Tag Manager -->
-    <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="index.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 6.16.5, nicepage.com">
-    <link rel="icon" href="images/favicon1.png">
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TestArmy</title>
+  <link rel="icon" type="image/png" sizes="247x247" href="./assets/images/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./indexstyle.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-custom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="./assets/images/TestArmyNoBG3.png" style="margin-left: 60px;" alt="Logo" height="60">
+    </a>
     
-    
-    
-    
-    
-    
-    <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "TestArmy",
-		"logo": "/images/TestArmyNoBG3.png",
-		"sameAs": [
-				"https://x.com/TestarmyAI"
-		]
-}</script>
-    <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="TestArmy">
-    <meta property="og:description" content="Build AI Agents for software testing.">
-    <meta property="og:type" content="website">
-  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body data-home-page="TestArmy.html" data-home-page-title="TestArmy" data-path-to-root="/" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=G-YS1C1DLJF3" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) --><header class="u-clearfix u-header u-header" id="sec-bb42"><div class="u-clearfix u-sheet u-sheet-1">
-        <a href="/" class="u-image u-logo u-image-1" data-image-width="323" data-image-height="80" title="TestArmy home">
-          <img src="/images/TestArmyNoBG3.png" class="u-logo-image u-logo-image-1">
-        </a>
-        <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1" data-responsive-from="MD" data-position="">
-          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;">
-            <a class="u-button-style u-custom-active-border-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
-              <svg class="u-svg-link" viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg>
-              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
-</g></svg>
-            </a>
-          </div>
-          <div class="u-custom-menu u-nav-container">
-            <ul class="u-nav u-spacing-20 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-border-2 u-border-active-grey-90 u-border-hover-grey-50 u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="/" style="padding: 10px;">Home</a>
-</li><li class="u-nav-item"><a class="u-border-2 u-border-active-grey-90 u-border-hover-grey-50 u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="/Thesis.html" style="padding: 10px;">Thesis</a>
-</li><li class="u-nav-item"><a class="u-border-2 u-border-active-grey-90 u-border-hover-grey-50 u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="/Values.html" style="padding: 10px;">Values</a>
-</li><li class="u-nav-item"><a class="u-border-2 u-border-active-grey-90 u-border-hover-grey-50 u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="/Team.html" style="padding: 10px;">Team</a>
-</li><li class="u-nav-item"><a class="u-border-2 u-border-active-grey-90 u-border-hover-grey-50 u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" id="book-time-button"style="padding: 10px;">Join the waitlist</a>
-</li></ul>
-          </div>
-          <div class="u-custom-menu u-nav-container-collapse">
-            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-              <div class="u-inner-container-layout u-sidenav-overflow">
-                <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/">Home</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Thesis.html">Thesis</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Values.html">Values</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Team.html">Team</a>
-</li></ul>
-              </div>
-            </div>
-            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-          </div>
-          <style class="menu-style">@media (max-width: 939px) {
-                    [data-responsive-from="MD"] .u-nav-container {
-                        display: none;
-                    }
-                    [data-responsive-from="MD"] .menu-collapse {
-                        display: block;
-                    }
-                }</style>
-        </nav>
-      </div></header>
-    <section class="u-clearfix u-container-align-center u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-section-1" id="carousel_b5d1">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
-          <div class="u-layout">
-            <div class="u-layout-row">
-              <div class="u-align-left u-container-align-left u-container-style u-layout-cell u-size-30 u-layout-cell-1">
-                <div class="u-container-layout u-valign-middle u-container-layout-1">
-                  <h2 class="u-text u-text-default u-text-1">An army of testers for every tester.</h2>
-                  <p class="u-text u-text-default u-text-2"> Software testing is complicated and automation testing is technical, so we built an army of testing agents, to help you win the mission of software quality.</p>
- 
-                </div>
-              </div>
-              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
-                <div class="u-container-layout u-container-layout-3">
-                  <div class="custom-expanded u-hover-feature u-image u-image-circle u-radius u-image-1" data-image-width="821" data-image-height="819" alt="Image of a testing agent"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <h3 class="u-align-center u-text u-text-default u-text-4"> TestAr​my makes it possible to balance cost, speed and software quality.</h3>
-      </div>
-      
-    </section>
-    <section class="u-align-center u-clearfix u-container-align-center u-section-2" id="sec-1db2">
-      <div class="u-align-left u-clearfix u-sheet u-sheet-1">
-        <div class="u-expanded-width u-list u-list-1">
-          <div class="u-repeater u-repeater-1">
-            <div class="u-container-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-1"><span class="u-align-center u-file-icon u-icon u-icon-1"><img src="/images/greengroup.png" alt=""></span>
-                <h3 class="u-align-center u-text u-text-default u-text-1">One click QA team</h3>
-                <p class="u-align-center u-text u-text-2"> Leverage our multi-agent systems to mimic real-world human testing, ensuring your software stands up to real-world scenarios.</p>
-              </div>
-            </div>
-            <div class="u-container-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-2"><span class="u-align-center u-file-icon u-icon u-icon-2"><img src="/images/greencontextlogo.png" alt=""></span>
-                <h3 class="u-align-center u-text u-text-default u-text-3"> Contextual Tests</h3>
-                <p class="u-align-center u-text u-text-4">We build meaningful tests based on&nbsp; your requirements, and test data.</p>
-              </div>
-            </div>
-            <div class="u-container-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-3"><span class="u-align-center u-file-icon u-icon u-icon-3"><img src="/images/greencloud.png" alt=""></span>
-                <h3 class="u-align-center u-text u-text-default u-text-5">Trained for Salesforce </h3>
-                <p class="u-align-center u-text u-text-6"> Our Browser Agent is fine tuned for Salesforce, so that your tests run, even if the UI changes.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="u-align-center u-clearfix u-container-align-center u-white u-section-3" id="sec-1a86">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-text u-text-1">Frequently Asked Questions</h2>
-        <div class="u-border-3 u-border-grey-dark-1 u-line u-line-horizontal u-line-1"></div>
-        <div class="u-accordion u-faq u-spacing-10 u-accordion-1">
-          <div class="u-accordion-item">
-            <a class="active u-accordion-link u-active-palette-2-light-3 u-button-style u-grey-5 u-hover-palette-2-light-3 u-text-active-custom-color-1 u-text-black u-text-hover-palette-2-base u-accordion-link-1" id="link-accordion-ae6a" aria-controls="accordion-ae6a" aria-selected="true">
-              <span class="u-accordion-link-text"> What exactly do your AI agents do?</span><span class="u-accordion-link-icon u-icon u-text-white u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a823"></use></svg><svg class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-a823" style=""><path d="M8,10.7L1.6,5.3c-0.4-0.4-1-0.4-1.3,0c-0.4,0.4-0.4,0.9,0,1.3l7.2,6.1c0.1,0.1,0.4,0.2,0.6,0.2s0.4-0.1,0.6-0.2l7.1-6
-	c0.4-0.4,0.4-0.9,0-1.3c-0.4-0.4-1-0.4-1.3,0L8,10.7z"></path></svg></span>
-            </a>
-            <div class="u-accordion-active u-accordion-pane u-container-style u-accordion-pane-1" id="accordion-ae6a" aria-labelledby="link-accordion-ae6a">
-              <div class="u-container-layout u-container-layout-1">
-                <div class="fr-view u-clearfix u-rich-text u-text">
-                  <p>Our AI agents generate Gherkin tests based on your specifications and automate running them in a browser. They streamline the testing process, reducing manual effort and ensuring faster feedback on your software.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="u-accordion-item">
-            <a class="u-accordion-link u-active-palette-2-light-3 u-button-style u-grey-5 u-hover-palette-2-light-3 u-text-active-custom-color-1 u-text-black u-text-hover-palette-2-base u-accordion-link-2" id="link-accordion-8339" aria-controls="accordion-8339" aria-selected="false">
-              <span class="u-accordion-link-text"> What type of tests can the AI agents create?<br>
-              </span><span class="u-accordion-link-icon u-icon u-text-white u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7d7e"></use></svg><svg class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-7d7e" style=""><path d="M8,10.7L1.6,5.3c-0.4-0.4-1-0.4-1.3,0c-0.4,0.4-0.4,0.9,0,1.3l7.2,6.1c0.1,0.1,0.4,0.2,0.6,0.2s0.4-0.1,0.6-0.2l7.1-6
-	c0.4-0.4,0.4-0.9,0-1.3c-0.4-0.4-1-0.4-1.3,0L8,10.7z"></path></svg></span>
-            </a>
-            <div class="u-accordion-pane u-container-style u-accordion-pane-2" id="accordion-8339" aria-labelledby="link-accordion-8339">
-              <div class="u-container-layout u-container-layout-2">
-                <div class="fr-view u-clearfix u-rich-text u-text">
-                  <p>The agents can create Behavior-driven development (BDD) tests written in Gherkin syntax for all kinds of functional requirements. These tests are designed to be easily understood by both technical and non-technical users.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="u-accordion-item">
-            <a class="u-accordion-link u-active-palette-2-light-3 u-button-style u-grey-5 u-hover-palette-2-light-3 u-text-active-custom-color-1 u-text-black u-text-hover-palette-2-base u-accordion-link-3" id="link-accordion-1c17" aria-controls="accordion-1c17" aria-selected="false">
-              <span class="u-accordion-link-text"> Can non-technical users generate tests using your platform?<br>
-              </span><span class="u-accordion-link-icon u-icon u-text-white u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d58c"></use></svg><svg class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-d58c" style=""><path d="M8,10.7L1.6,5.3c-0.4-0.4-1-0.4-1.3,0c-0.4,0.4-0.4,0.9,0,1.3l7.2,6.1c0.1,0.1,0.4,0.2,0.6,0.2s0.4-0.1,0.6-0.2l7.1-6
-	c0.4-0.4,0.4-0.9,0-1.3c-0.4-0.4-1-0.4-1.3,0L8,10.7z"></path></svg></span>
-            </a>
-            <div class="u-accordion-pane u-container-style u-accordion-pane-3" id="accordion-1c17" aria-labelledby="link-accordion-1c17">
-              <div class="u-container-layout u-container-layout-3">
-                <div class="fr-view u-clearfix u-rich-text u-text">
-                  <p>We offer seamless integration with popular CI/CD tools like Jenkins, GitHub Actions, and version control systems, ensuring that the AI agents fit into your existing workflows.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="u-accordion-item">
-            <a class="u-accordion-link u-active-palette-2-light-3 u-button-style u-grey-5 u-hover-palette-2-light-3 u-text-active-custom-color-1 u-text-black u-text-hover-palette-2-base u-accordion-link-4" id="link-6aa8" aria-controls="6aa8" aria-selected="false">
-              <span class="u-accordion-link-text"> What programming languages do I need to know to use your platform?</span><span class="u-accordion-link-icon u-icon u-text-white u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xlink:href="#svg-8f14"></use></svg><svg class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-8f14"><path d="M8,10.7L1.6,5.3c-0.4-0.4-1-0.4-1.3,0c-0.4,0.4-0.4,0.9,0,1.3l7.2,6.1c0.1,0.1,0.4,0.2,0.6,0.2s0.4-0.1,0.6-0.2l7.1-6
-	c0.4-0.4,0.4-0.9,0-1.3c-0.4-0.4-1-0.4-1.3,0L8,10.7z"></path></svg></span>
-            </a>
-            <div class="u-accordion-pane u-container-style u-accordion-pane-4" id="6aa8" aria-labelledby="link-6aa8">
-              <div class="u-container-layout u-container-layout-4">
-                <div class="fr-view u-clearfix u-rich-text u-text">
-                  <p>No programming knowledge is required to use our AI agents. Currently, we offer English as the primary language for interacting with agents, and will roll out globally with other languages too. </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="u-accordion-item">
-            <a class="u-accordion-link u-active-palette-2-light-3 u-button-style u-grey-5 u-hover-palette-2-light-3 u-text-active-custom-color-1 u-text-black u-text-hover-palette-2-base u-accordion-link-5" id="link-3344" aria-controls="3344" aria-selected="false">
-              <span class="u-accordion-link-text"> How does the platform handle test maintenance?</span><span class="u-accordion-link-icon u-icon u-text-white u-icon-5"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xlink:href="#svg-d640"></use></svg><svg class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-d640"><path d="M8,10.7L1.6,5.3c-0.4-0.4-1-0.4-1.3,0c-0.4,0.4-0.4,0.9,0,1.3l7.2,6.1c0.1,0.1,0.4,0.2,0.6,0.2s0.4-0.1,0.6-0.2l7.1-6
-	c0.4-0.4,0.4-0.9,0-1.3c-0.4-0.4-1-0.4-1.3,0L8,10.7z"></path></svg></span>
-            </a>
-            <div class="u-accordion-pane u-container-style u-accordion-pane-5" id="3344" aria-labelledby="link-3344">
-              <div class="u-container-layout u-container-layout-5">
-                <div class="fr-view u-clearfix u-rich-text u-text">
-                  <p>Our AI agents continuously adapt to changes in your software, reducing the need for constant maintenance of test cases.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="u-accordion-item">
-            <a class="u-accordion-link u-active-palette-2-light-3 u-button-style u-grey-5 u-hover-palette-2-light-3 u-text-active-custom-color-1 u-text-black u-text-hover-palette-2-base u-accordion-link-6" id="link-d18b" aria-controls="d18b" aria-selected="false">
-              <span class="u-accordion-link-text"> What happens if a test fails?</span><span class="u-accordion-link-icon u-icon u-text-white u-icon-6"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xlink:href="#svg-b007"></use></svg><svg class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-b007"><path d="M8,10.7L1.6,5.3c-0.4-0.4-1-0.4-1.3,0c-0.4,0.4-0.4,0.9,0,1.3l7.2,6.1c0.1,0.1,0.4,0.2,0.6,0.2s0.4-0.1,0.6-0.2l7.1-6
-	c0.4-0.4,0.4-0.9,0-1.3c-0.4-0.4-1-0.4-1.3,0L8,10.7z"></path></svg></span>
-            </a>
-            <div class="u-accordion-pane u-container-style u-accordion-pane-6" id="d18b" aria-labelledby="link-d18b">
-              <div class="u-container-layout u-container-layout-6">
-                <div class="fr-view u-clearfix u-rich-text u-text">
-                  <p>The platform provides detailed logs and screenshots to help diagnose the issue. You’ll also receive suggestions from the AI on how to adjust the test, for catching bugs.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="u-accordion-item">
-            <a class="u-accordion-link u-active-palette-2-light-3 u-button-style u-grey-5 u-hover-palette-2-light-3 u-text-active-custom-color-1 u-text-black u-text-hover-palette-2-base u-accordion-link-7" id="link-1861" aria-controls="1861" aria-selected="false">
-              <span class="u-accordion-link-text"> What makes your platform different from other test automation tools?</span><span class="u-accordion-link-icon u-icon u-text-white u-icon-7"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 16 16" style=""><use xlink:href="#svg-e018"></use></svg><svg class="u-svg-content" viewBox="0 0 16 16" x="0px" y="0px" id="svg-e018"><path d="M8,10.7L1.6,5.3c-0.4-0.4-1-0.4-1.3,0c-0.4,0.4-0.4,0.9,0,1.3l7.2,6.1c0.1,0.1,0.4,0.2,0.6,0.2s0.4-0.1,0.6-0.2l7.1-6
-	c0.4-0.4,0.4-0.9,0-1.3c-0.4-0.4-1-0.4-1.3,0L8,10.7z"></path></svg></span>
-            </a>
-            <div class="u-accordion-pane u-container-style u-accordion-pane-7" id="1861" aria-labelledby="link-1861">
-              <div class="u-container-layout u-container-layout-7">
-                <div class="fr-view u-clearfix u-rich-text u-text">
-                  <p>Our AI-driven agents automate not only the test execution but also the test design process, saving significant time for both technical and non-technical users. The platform is built for rapid scaling and adaptability to changes in your codebase. </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div id="message-card"></div>
-    <div class="u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-valign-top-sm u-valign-top-xs u-container-layout-2" id="waitlist-domain">
-      <h3 class="centered-heading">Sign up for our closed Alpha</h3>
-      <form id="signup-form" class="reduced-width-form">
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text">Email</span>
-          </div>
-          <input type="email" id="email" name="email" class="form-control" placeholder="Enter your Business email" required>
-          <div class="input-group-append">
-            <button class="btn btn-dark" type="submit">Count me in!</button>
-          </div>
-        </div>
-      </form>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./thesis.html">Thesis</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./value.html">Value</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./team.html">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./waitlist.html">Join the waitlist</a>
+        </li>
+      </ul>
     </div>
-    <br>
-    
-    
-    
-    <footer class="u-clearfix u-footer u-grey-80" id="sec-9633"><div class="u-clearfix u-sheet u-sheet-1">
-        <div class="data-layout-selected u-clearfix u-expanded-width u-gutter-30 u-layout-wrap u-layout-wrap-1">
-          <div class="u-gutter-0 u-layout">
-            <div class="u-layout-row">
-              <div class="u-align-center-sm u-align-center-xs u-align-left-md u-align-left-xl u-container-style u-layout-cell u-left-cell u-size-20 u-size-30-md u-layout-cell-1">
-                <div class="u-container-layout u-valign-middle u-container-layout-1"><!--position-->
-                  <div data-position="" class="u-position u-position-1"><!--block-->
-                    <div class="u-block">
-                      <div class="u-block-container u-clearfix"><!--block_header-->
-                        <h5 class="u-align-center u-block-header u-text"><!--block_header_content-->Made with&nbsp;<span class="u-icon u-icon-1"><svg class="u-svg-content" viewBox="0 0 50 50" x="0px" y="0px" style="width: 1em; height: 1em;"><path style="fill:currentColor;" d="M24.85,10.126c2.018-4.783,6.628-8.125,11.99-8.125c7.223,0,12.425,6.179,13.079,13.543
-	c0,0,0.353,1.828-0.424,5.119c-1.058,4.482-3.545,8.464-6.898,11.503L24.85,48L7.402,32.165c-3.353-3.038-5.84-7.021-6.898-11.503
-	c-0.777-3.291-0.424-5.119-0.424-5.119C0.734,8.179,5.936,2,13.159,2C18.522,2,22.832,5.343,24.85,10.126z"></path></svg></span> in&nbsp;&nbsp;<span class="u-file-icon u-icon"><img src="/images/206606.png" alt=""></span><!--/block_header_content-->
-                        </h5><!--/block_header--><!--block_content-->
-                        <div class="u-block-content u-text"><!--block_content_content--><!--/block_content_content--></div><!--/block_content-->
-                      </div>
-                    </div><!--/block-->
-                  </div><!--/position-->
-                </div>
-              </div>
-              <div class="u-align-center-sm u-align-right-md u-container-style u-layout-cell u-size-20 u-size-30-md u-layout-cell-2">
-                <div class="u-container-layout u-valign-middle u-container-layout-2">
-                  <a href="#" class="u-image u-logo u-image-1" data-image-width="247" data-image-height="247">
-                    <img src="/images/TestArmyLogo_White.png" class="u-logo-image u-logo-image-1">
-                  </a>
-                </div>
-              </div>
-              <div class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-container-style u-layout-cell u-right-cell u-size-20 u-size-30-md u-layout-cell-3">
-                <div class="u-container-layout u-container-layout-3">
-                  <div class="u-social-icons u-spacing-10 u-social-icons-1">
-                    <a class="u-social-url" title="linkedin" target="_blank" href="https://www.linkedin.com/company/test-army-ai"><span class="u-icon u-social-icon u-social-linkedin u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-d8cc"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-d8cc"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M41.3,83.7H27.9V43.4h13.4V83.7z M34.6,37.9L34.6,37.9c-4.6,0-7.5-3.1-7.5-7c0-4,3-7,7.6-7s7.4,3,7.5,7
-      C42.2,34.8,39.2,37.9,34.6,37.9z M89.6,83.7H76.2V62.2c0-5.4-1.9-9.1-6.8-9.1c-3.7,0-5.9,2.5-6.9,4.9c-0.4,0.9-0.4,2.1-0.4,3.3v22.5
-      H48.7c0,0,0.2-36.5,0-40.3h13.4v5.7c1.8-2.7,5-6.7,12.1-6.7c8.8,0,15.4,5.8,15.4,18.1V83.7z"></path></svg></span>
-                    </a>
-                    <a class="u-social-url" title="twitter" target="_blank" href="https://x.com/TestarmyAI"><span class="u-icon u-social-icon u-social-twitter u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-6051"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-6051"><circle fill="currentColor" class="st0" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M83.8,47.3c0,0.6,0,1.2,0,1.7c0,17.7-13.5,38.2-38.2,38.2C38,87.2,31,85,25,81.2c1,0.1,2.1,0.2,3.2,0.2
-      c6.3,0,12.1-2.1,16.7-5.7c-5.9-0.1-10.8-4-12.5-9.3c0.8,0.2,1.7,0.2,2.5,0.2c1.2,0,2.4-0.2,3.5-0.5c-6.1-1.2-10.8-6.7-10.8-13.1
-      c0-0.1,0-0.1,0-0.2c1.8,1,3.9,1.6,6.1,1.7c-3.6-2.4-6-6.5-6-11.2c0-2.5,0.7-4.8,1.8-6.7c6.6,8.1,16.5,13.5,27.6,14
-      c-0.2-1-0.3-2-0.3-3.1c0-7.4,6-13.4,13.4-13.4c3.9,0,7.3,1.6,9.8,4.2c3.1-0.6,5.9-1.7,8.5-3.3c-1,3.1-3.1,5.8-5.9,7.4
-      c2.7-0.3,5.3-1,7.7-2.1C88.7,43,86.4,45.4,83.8,47.3z"></path></svg></span>
-                    </a>
-                  </div>
-                  <p class="u-text u-text-3"> Copyright 2024.</p>
-                </div>
-              </div>
+  </div>
+</nav>
+
+<!-- Main content -->
+<div class="container content-wrapper">
+  <div class="row align-items-center">
+    <div class="col-md-6 content">
+      <h1>An army of testers for every tester.</h1>
+      <p>Software testing is complicated and automation testing is technical, so we built an army of testing agents, to help you win the mission of software quality.</p>
+    </div>
+    <div class="col-md-6 text-center">
+      <div class="image-holder">
+        <img src="./assets/images/logo2.png" alt="Circular Image">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- New Section -->
+<section class="overlap-section">
+  <div class="container">
+    <h2>TestArmy makes it possible to balance cost, speed and software quality.</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="height: 380px;">
+          <img src="./assets/images/greengroup.png" class="card-img-top" alt="One click QA team">
+          <div class="card-body" style="text-align: center;">
+            <h5 class="card-title">One click QA team</h5>
+            <p class="card-text">Leverage our multi-agent systems to mimic real-world human testing, ensuring your software stands up to real-world scenarios.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="height: 380px;">
+          <img src="./assets/images/greencontextlogo.png" class="card-img-top" alt="Contextual Tests">
+          <div class="card-body" style="text-align: center;">
+            <h5 class="card-title">Contextual Tests</h5>
+            <p class="card-text">We build meaningful tests based on your requirements, and test data.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="height: 380px;">
+          <img src="./assets/images/greencloud.png" class="card-img-top" alt="Trained for Salesforce">
+          <div class="card-body" style="text-align: center;">
+            <h5 class="card-title">Trained for Salesforce</h5>
+            <p class="card-text">Our Browser Agent is fine-tuned for Salesforce, so that your tests run, even if the UI changes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br>
+<center><img style="height: 600px;" src="./assets/images/graphic-qa-1.png"></center>
+<br>
+<!-- FAQ Section -->
+<section class="faq-section">
+    <div class="container">
+      <h2 style="margin-bottom: 60px;">Frequently Asked Questions</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              What exactly do your AI agents do?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Our AI agents generate Gherkin tests based on your specifications and automate running them in a browser. They streamline the testing process, reducing manual effort and ensuring faster feedback on your software.
             </div>
           </div>
         </div>
-      </div></footer><section class="u-align-center u-clearfix u-cookies-consent u-grey-80 u-cookies-consent" id="sec-4ac0">
-      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
-          <div class="u-gutter-0 u-layout">
-            <div class="u-layout-row">
-              <div class="u-container-style u-layout-cell u-left-cell u-size-43-md u-size-43-sm u-size-43-xs u-size-46-lg u-size-46-xl u-layout-cell-1">
-                <div class="u-container-layout u-valign-middle u-container-layout-1">
-                  <h3 class="u-text u-text-default u-text-1">Cookies &amp; Privacy</h3>
-                  <p class="u-text u-text-default u-text-2">This website uses cookies to ensure you get the best experience on our website.</p>
-                </div>
-              </div>
-              <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-14-lg u-size-14-xl u-size-17-md u-size-17-sm u-size-17-xs u-layout-cell-2">
-                <div class="u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-valign-top-sm u-valign-top-xs u-container-layout-2">
-                  <a href="###" class="u-btn u-button-confirm u-button-style u-palette-1-base u-btn-1">Confirm</a>
-                  
-                </div>
-              </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              What type of tests can the AI agents create?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              The agents can create Behavior-driven development (BDD) tests written in Gherkin syntax for all kinds of functional requirements. These tests are designed to be easily understood by both technical and non-technical users.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Can non-technical users generate tests using your platform?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              We offer seamless integration with popular CI/CD tools like Jenkins, GitHub Actions, and version control systems, ensuring that the AI agents fit into your existing workflows.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              What programming languages do I need to know to use your platform?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              No programming knowledge is required to use our AI agents. Currently, we offer English as the primary language for interacting with agents, and will roll out globally with other languages too.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              How does the platform handle test maintenance?
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Our AI agents continuously adapt to changes in your software, reducing the need for constant maintenance of test cases.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              What happens if a test fails?
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              The platform provides detailed logs and screenshots to help diagnose the issue. You’ll also receive suggestions from the AI on how to adjust the test, for catching bugs.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+              What makes your platform different from other test automation tools?
+            </button>
+          </h2>
+          <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Our AI-driven agents automate not only the test execution but also the test design process, saving significant time for both technical and non-technical users. The platform is built for rapid scaling and adaptability to changes in your codebase.
             </div>
           </div>
         </div>
       </div>
-    <style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    </div>
+  </section>
+  <div id="message-card"></div>
 
-#email::placeholder {
-    font-size: 15px; /* Adjust the size as needed */
-}
+  <br>
+  
+  <footer class="footer bg-gray">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Section: Triangle T Logo -->
+        <div class="col-md-4 text-left">
+          <img src="./assets/images/favicon-19.png" alt="Footer Image" class="footer-image">
+        </div>
 
-.centered-heading {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  margin-bottom: 20px; /* Adjust as needed */
-}
+        <!-- Center Section: Newsletter Signup -->
+        <div class="col-md-4 text-center">
+          <h3 class="centered-heading">Sign up for our Newsletter!</h3>
+          <form id="signup-form" class="reduced-width-form">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Email</span>
+              </div>
+              <input type="email" id="email" name="email" class="form-control" placeholder="Enter your Business email" required>
+              <div class="input-group-append">
+                <button class="btn btn-dark" type="submit">Count me in!</button>
+              </div>
+            </div>
+          </form>
+        </div>
 
-.reduced-width-form {
-  max-width: 1000px; /* Adjust the width as needed */
-  margin: 0 auto; /* Center the form */
-}
+        <!-- Right Section: Made with Love in India, Copyright, and Social Icons -->
+        <div class="col-md-4 text-right d-flex flex-column align-items-end">
+          <p style="color: white;">Made with <span class="text-danger">❤️</span> in 
+            <img src="./assets/images/206606.png" alt="India Flag" class="flag-image">
+          </p>
+          <div class="d-flex align-items-center">
+            <p class="mb-0 me-3" style="color: white;">&copy; 2024</p>
+            <a href="https://www.linkedin.com/company/test-army-ai" target="_blank" class="social-icon me-2">
+              <img src="./assets/images/icons8-linkedin-48.png" alt="LinkedIn" class="social-logo">
+            </a>
+            <a href="https://x.com/TestarmyAI" target="_blank" class="social-icon">
+              <img src="./assets/images/icons8-twitter-48.png" alt="Twitter" class="social-logo">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-.input-group-text {
-  background-color: #f8f9fa;
-  border: 1px solid #ced4da;
-}
+  
+  
 
-.form-control {
-  border: 1px solid #ced4da;
-}
-
-.btn-dark {
-  margin-left: 10px; /* Add space between form and button */
-}
-
-
-#message-card {
-    display: none; /* Hidden by default */
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
-    color: #333;
-    border-radius: 5px;
-}
-    
-     .u-cookies-consent {
-  background-image: none;
-}
-
-.u-cookies-consent .u-sheet-1 {
-  min-height: 212px;
-}
-
-.u-cookies-consent .u-layout-wrap-1 {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.u-cookies-consent .u-layout-cell-1 {
-  min-height: 152px;
-}
-
-.u-cookies-consent .u-container-layout-1 {
-  padding: 30px 60px;
-}
-
-.u-cookies-consent .u-text-1 {
-  margin-top: 0;
-  margin-right: 20px;
-  margin-bottom: 0;
-}
-
-.u-cookies-consent .u-text-2 {
-  margin: 8px 20px 0 0;
-}
-
-.u-cookies-consent .u-layout-cell-2 {
-  min-height: 152px;
-}
-
-.u-cookies-consent .u-container-layout-2 {
-  padding: 30px;
-}
-
-.u-cookies-consent .u-btn-1 {
-  margin: 0 auto 0 0;
-}
-
-@media (max-width: 1199px) {
-  .u-cookies-consent .u-sheet-1 {
-    min-height: 131px;
-  }
-
-  .u-cookies-consent .u-layout-cell-1 {
-    min-height: 125px;
-  }
-
-  .u-cookies-consent .u-text-1 {
-    margin-right: 0;
-  }
-
-  .u-cookies-consent .u-text-2 {
-    margin-right: 0;
-  }
-
-  .u-cookies-consent .u-layout-cell-2 {
-    min-height: 125px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-cookies-consent .u-sheet-1 {
-    min-height: 106px;
-  }
-
-  .u-cookies-consent .u-layout-cell-1 {
-    min-height: 100px;
-  }
-
-  .u-cookies-consent .u-container-layout-1 {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .u-cookies-consent .u-layout-cell-2 {
-    min-height: 100px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-cookies-consent .u-sheet-1 {
-    min-height: 225px;
-  }
-
-  .u-cookies-consent .u-layout-cell-1 {
-    min-height: 154px;
-  }
-
-  .u-cookies-consent .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-  }
-
-  .u-cookies-consent .u-layout-cell-2 {
-    min-height: 65px;
-  }
-
-  .u-cookies-consent .u-container-layout-2 {
-    padding: 10px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-cookies-consent .u-sheet-1 {
-    min-height: 121px;
-  }
-
-  .u-cookies-consent .u-layout-cell-1 {
-    min-height: 100px;
-  }
-
-  .u-cookies-consent .u-layout-cell-2 {
-    min-height: 15px;
-  }
-}</style></section>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
-      $(document).ready(function() {
-        $('#signup-form').on('submit', function(event) {
-          event.preventDefault(); 
-          
-          const emailInput = $('#email').val();
-          const blockedDomains = ['gmail.com', 'yahoo.com', 'hotmail.com'];
-    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    $(document).ready(function() {
+      $('#signup-form').on('submit', function(event) {
+        event.preventDefault(); 
         
-          const emailDomain = emailInput.split('@')[1];
-    
-         
-          if (blockedDomains.includes(emailDomain)) {
-            alert('Email domains from @gmail, @yahoo, and @hotmail are not allowed.');
-            return; 
-          }
-    
-          var formData = {
-            email: emailInput,
-            phone: null
-          };
-    
-          $.ajax({
-            type: 'POST',
-            url: 'https://test-army-mail-micro.vercel.app/signup',
-            data: JSON.stringify(formData),
-            contentType: 'application/json',
-            success: function(response) {
-              let message = '';
-    
-              if (response.message === 'Signup successful') {
-                message = `You have signed up successfully from the id - ${formData.email}`;
-              } else if (response.message === 'Failed to send email') {
-                message = 'Failed to send email. Please try again.';
-              } else if (response.message === 'Email is already used') {
-                message = 'The email is already used. Please use a different email.';
-              }
-    
-              $('#message-card').html(
-                `<div>${message}</div>`
-              ).fadeIn();
-    
-              $('#signup-form')[0].reset();
-    
-              setTimeout(function() {
-                $('#message-card').fadeOut();
-              }, 5000);
-            },
-            error: function(xhr) {
-              let message = 'An error occurred. Please try again.';
-    
-              try {
-                var errorResponse = JSON.parse(xhr.responseText);
-    
-                if (errorResponse.error === 'Email is already used') {
-                  message = 'The email is already used. Please use a different email.';
-                } else if (errorResponse.error === 'Failed to send email') {
-                  message = 'Failed to send email. Please try again.';
-                }
-              } catch (e) {
-                if (xhr.status === 400) {
-                  message = 'Bad request. Please check your input and try again.';
-                } else if (xhr.status === 500) {
-                  message = 'Internal server error. Please try again later.';
-                }
-              }
-    
-              $('#message-card').html(
-                `<div>${message}</div>`
-              ).fadeIn();
-    
-              setTimeout(function() {
-                $('#message-card').fadeOut();
-              }, 5000);
+        const emailInput = $('#email').val();
+        const blockedDomains = ['gmail.com', 'yahoo.com', 'hotmail.com'];
+  
+      
+        const emailDomain = emailInput.split('@')[1];
+  
+       
+        if (blockedDomains.includes(emailDomain)) {
+          alert('Email domains from @gmail, @yahoo, and @hotmail are not allowed.');
+          return; 
+        }
+  
+        var formData = {
+          email: emailInput,
+          phone: null
+        };
+  
+        $.ajax({
+          type: 'POST',
+          url: 'https://test-army-mail-micro.vercel.app/signup',
+          data: JSON.stringify(formData),
+          contentType: 'application/json',
+          success: function(response) {
+            let message = '';
+  
+            if (response.message === 'Signup successful') {
+              message = `You have signed up successfully from the id - ${formData.email}`;
+            } else if (response.message === 'Failed to send email') {
+              message = 'Failed to send email. Please try again.';
+            } else if (response.message === 'Email is already used') {
+              message = 'The email is already used. Please use a different email.';
             }
-          });
+  
+            $('#message-card').html(
+              `<div>${message}</div>`
+            ).fadeIn();
+  
+            $('#signup-form')[0].reset();
+  
+            setTimeout(function() {
+              $('#message-card').fadeOut();
+            }, 5000);
+          },
+          error: function(xhr) {
+            let message = 'An error occurred. Please try again.';
+  
+            try {
+              var errorResponse = JSON.parse(xhr.responseText);
+  
+              if (errorResponse.error === 'Email is already used') {
+                message = 'The email is already used. Please use a different email.';
+              } else if (errorResponse.error === 'Failed to send email') {
+                message = 'Failed to send email. Please try again.';
+              }
+            } catch (e) {
+              if (xhr.status === 400) {
+                message = 'Bad request. Please check your input and try again.';
+              } else if (xhr.status === 500) {
+                message = 'Internal server error. Please try again later.';
+              }
+            }
+  
+            $('#message-card').html(
+              `<div>${message}</div>`
+            ).fadeIn();
+  
+            setTimeout(function() {
+              $('#message-card').fadeOut();
+            }, 5000);
+          }
         });
       });
+    });
+  </script>
+
+<script>
+    document.getElementById('book-time-button').addEventListener('click', function() {
+        document.getElementById('waitlist-domain').scrollIntoView({ behavior: 'smooth' });
+    });
     </script>
-    
-    <script>
-      document.getElementById('book-time-button').addEventListener('click', function() {
-          document.getElementById('waitlist-domain').scrollIntoView({ behavior: 'smooth' });
-      });
-      </script>
-  
-</body></html>
+
+</body>
+</html>
